@@ -1,0 +1,28 @@
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+.footer button{
+    background-color: #edc84b;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1.4rem 3.2rem;
+    transition: all .2s;
+}
+.footer p {
+    margin-top: 4rem;
+}
+@media (max-width: 768px) {
+    .footer{
+        width:400px
+    }
+    .footer p{
+        width: 300px;
+    }
+}

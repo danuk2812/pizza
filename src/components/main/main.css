@@ -1,0 +1,60 @@
+
+.pizza_img{
+    width: 120px;
+}
+.pizzas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.pizza_item {
+    display: flex;
+    width: 385px;
+    gap: 3.2rem;
+}
+.pizza_info {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+.pizza_name h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #2B2F34;
+}
+.pizza-description {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: auto;
+    color: #928D91;
+    margin-top: 10px;
+}
+
+.pizza_price {
+    display: block;
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+.sold_out img {
+    opacity: 0.3;
+}
+.sold_out h3 {
+    color: #888888;
+}
+.sold_out p {
+    color: #989795;
+}
+.sold_out_text {
+    display: block;
+    font-size: 1.6rem;
+    color :#928D91
+}
+@media (max-width: 768px) {
+    .pizza_item{
+        width:400px
+    }
+    .wrapper {
+        width: 400px;
+    }
+}
